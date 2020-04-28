@@ -25,12 +25,13 @@ module.exports = [
 
   { text: '分类', icon: 'reco-category',
     items: [ // 下拉列表
-      { text: '前端', link: '/categories/frontEnd/' },
-      { text: '后端', link: '/categories/backEnd/' },
-      { text: 'life', link: '/categories/life/'}
+      { text: '前端', link: '/categories/frontEnd/'},
+      { text: '后端', link: '/categories/backEnd/'},
+      { text: 'life', link: '/categories/life/'},
+      { text: 'Git', link: '/categories/Git/'}
     ]
   },
   { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
 
-]
+];
 

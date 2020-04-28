@@ -1,8 +1,8 @@
-const UsePlugins = require('../config/UsePlugins')
-const navConfig = require('../config/navConfig')
-const valineConfig = require('../config/valineConfig')
-const sidebarConfig = require('../config/sidebarConfig')
-const frindLinkConfig = require('../config/frindLinkConfig')
+const UsePlugins = require('../config/UsePlugins');
+const navConfig = require('../config/navConfig');
+const valineConfig = require('../config/valineConfig');
+const sidebarConfig = require('../config/sidebarConfig');
+const frindLinkConfig = require('../config/frindLinkConfig');
 
 module.exports = {
   title: 'liyoublog',
@@ -40,7 +40,7 @@ module.exports = {
     valineConfig: valineConfig,
 
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-     repo: '/Runningliyou',
+     repo: '/Runningliyou/blog',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
     // repoLabel: '查看源码',
@@ -70,7 +70,7 @@ module.exports = {
     // 备案号
     record: 'xxxx',
     // 项目开始时间
-    startYear: '2020',
+    startYear: '2019',
     // 启动页面滚动效果
     smoothScroll: true,
   },
@@ -85,4 +85,4 @@ module.exports = {
   },
   // 插件
   plugins: UsePlugins
-}
+};

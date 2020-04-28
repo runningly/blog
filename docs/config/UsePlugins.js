@@ -1,6 +1,6 @@
 module.exports = [
 // 图片放大
-  ['@@vuepress/plugin-medium-zoom', {
+  ['@vuepress/plugin-medium-zoom', {
     selector: '.theme-default-content :not(a) > img',
     options: {
       margin: 16
@@ -29,7 +29,7 @@ module.exports = [
   "ribbon",
   {
     size: 90, // 彩带的宽度，默认为 90
-    opacity: 0.3, // 彩带的不透明度，默认为 0.3
+    opacity: 0.1, // 彩带的不透明度，默认为 0.3
     zIndex: -2 // 彩带的 z-index 属性，默认值为 -1
   }
 ],
@@ -55,4 +55,4 @@ module.exports = [
       width: '165px'
     }
   ],
-]
+];

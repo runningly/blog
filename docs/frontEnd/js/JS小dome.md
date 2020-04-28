@@ -3,7 +3,7 @@ title: setInterval()方法实现斗鱼自动发弹幕
 date: 2020-3-30
 categories: frontEnd
 tags:
-- javescript
+- JaveScript
 ---
 ## setInterval()方法实现斗鱼自动发弹幕
 ### 定义：

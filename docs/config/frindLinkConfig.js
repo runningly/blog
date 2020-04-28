@@ -1,4 +1,5 @@
 module.exports = [
+  // 友链
   {
     title: 'vuepress-theme-reco',
     desc: 'A simple and beautiful vuepress Blog & Doc theme.',
@@ -11,4 +12,4 @@ module.exports = [
     email: 'recoluan@qq.com',
     link: 'https://www.recoluan.com'
   },
-]
+];
